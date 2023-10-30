@@ -3,9 +3,7 @@
 import { revalidatePath } from "next/cache";
 import Thread from "../models/thread.model";
 import User from "../models/user.model";
-import { connectToDB } from "../mongoose"
-import { UserCircle2 } from "lucide-react";
-import { comment } from "postcss";
+import { connectToDB } from "../mongoose";
 
 
 interface Params {
